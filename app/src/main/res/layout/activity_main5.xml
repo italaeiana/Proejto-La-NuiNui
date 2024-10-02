@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CFBAAF"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity5">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="228dp"
+        app:layout_constraintStart_toStartOf="@+id/appBarLayout2"
+        app:layout_constraintTop_toTopOf="@+id/appBarLayout2"
+        app:srcCompat="@drawable/ngc_de_cartao" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alterar nome"
+        android:textColor="#050505"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="251dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sair da conta"
+        android:textColor="#050505"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="485dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cartões salvos"
+        android:textColor="#050505"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="430dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alterar dados pessoais"
+        android:textColor="#050505"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Endereços salvos"
+        android:textColor="#050505"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="370dp" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/image_46"
+        tools:layout_editor_absoluteX="361dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/image_19__1_"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="367dp" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/image_29__1_"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="430dp" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/image_48__2_"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/saida_1__1_"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="485dp" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ellipse_14__1_"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/la_nuinui"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="38dp" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/image_49"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="248dp" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ana_cec_lia"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="195dp" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="413dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.961"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/group_7"
+        tools:layout_editor_absoluteY="649dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

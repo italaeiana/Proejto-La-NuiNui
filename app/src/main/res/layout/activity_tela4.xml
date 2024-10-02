@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".Tela4Activity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="500dp"
+        android:layout_height="1000dp"
+        app:srcCompat="@drawable/rectangle_6"
+        tools:layout_editor_absoluteX="-60dp"
+        tools:layout_editor_absoluteY="-35dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fadingEdge="vertical"
+        android:fontFamily="@font/asul"
+        android:text="Olá!"
+        android:textColor="#684646"
+        android:textDirection="firstStrongRtl"
+        android:textSize="31sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="222dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="500dp"
+        android:layout_height="550dp"
+        android:scrollbarFadeDuration="100"
+        android:verticalScrollbarPosition="defaultPosition"
+        app:layout_anchor="55+"
+        app:layout_anchorGravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/rectangle_3"
+        tools:layout_editor_absoluteY="272dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digite o código da sua revista:"
+        android:textColor="#F3E7E7"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="604dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-mail:"
+        android:textColor="#F3E7E7"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="338dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome:"
+        android:textColor="#F3E7E7"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="536dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telefone:"
+        android:textColor="#F3E7E7"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="475dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Senha:"
+        android:textColor="#F3E7E7"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="408dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress9"
+        android:layout_width="254dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/border"
+        android:backgroundTint="#FFEBDD"
+        android:drawableTint="@color/black"
+        android:ems="15"
+        android:inputType="textEmailAddress"
+        android:shadowColor="#0E0909"
+        android:shadowDx="30"
+        android:shadowDy="30"
+        android:shadowRadius="30"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="41dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="254dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="624dp"
+        android:background="@drawable/border"
+        android:backgroundTint="#FFEBDD"
+        android:drawableTint="@color/black"
+        android:ems="15"
+        android:inputType="textEmailAddress"
+        android:shadowColor="#0E0909"
+        android:shadowDx="30"
+        android:shadowDy="30"
+        android:shadowRadius="30"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="41dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress5"
+        android:layout_width="254dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="556dp"
+        android:background="@drawable/border"
+        android:backgroundTint="#FFEBDD"
+        android:drawableTint="@color/black"
+        android:ems="15"
+        android:inputType="textEmailAddress"
+        android:shadowColor="#0E0909"
+        android:shadowDx="30"
+        android:shadowDy="30"
+        android:shadowRadius="30"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="41dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="254dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="428dp"
+        android:background="@drawable/border"
+        android:backgroundTint="#FFEBDD"
+        android:drawableTint="@color/black"
+        android:ems="15"
+        android:inputType="textEmailAddress"
+        android:shadowColor="#0E0909"
+        android:shadowDx="30"
+        android:shadowDy="30"
+        android:shadowRadius="30"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="41dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress4"
+        android:layout_width="254dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="496dp"
+        android:background="@drawable/border"
+        android:backgroundTint="#FFEBDD"
+        android:drawableTint="@color/black"
+        android:ems="15"
+        android:inputType="textEmailAddress"
+        android:shadowColor="#0E0909"
+        android:shadowDx="30"
+        android:shadowDy="30"
+        android:shadowRadius="30"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="41dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/asul"
+        android:text="Crie sua conta"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textColorHint="#F1ECEC"
+        android:textDirection="firstStrongLtr"
+        android:textSize="16sp"
+        android:textStyle="normal|bold"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="306dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
